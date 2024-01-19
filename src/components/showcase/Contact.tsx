@@ -51,7 +51,7 @@ const Contact: React.FC<ContactProps> = (props) => {
     const handleSubmit = useCallback(() => {
         if (isFormValid) {
             setIsLoading(true);
-            fetch('https://henryheffernan.com/api/send-email', {
+            fetch('https://hongyi-ren.com/api/send-email', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
@@ -111,16 +111,16 @@ const Contact: React.FC<ContactProps> = (props) => {
                 <div style={styles.socials}>
                     <SocialBox
                         icon={ghIcon}
-                        link={'https://github.com/henryjeff'}
+                        link={'https://github.com/nenya1840'}
                     />
                     <SocialBox
                         icon={inIcon}
-                        link={'https://www.linkedin.com/in/henryheffernan/'}
+                        link={'https://www.linkedin.com/in/hongyi-ren-675a6b18b/'}
                     />
-                    <SocialBox
+                    {/* <SocialBox
                         icon={twitterIcon}
                         link={'https://twitter.com/henryheffernan'}
-                    />
+                    /> */}
                 </div>
             </div>
             <div className="text-block">
@@ -133,8 +133,8 @@ const Contact: React.FC<ContactProps> = (props) => {
                 <br />
                 <p>
                     <b>Email: </b>
-                    <a href="mailto:henryheffernan@gmail.com">
-                        henryheffernan@gmail.com
+                    <a href="mailto:hongyi.ren.job@gmail.com">
+                        hongyi.ren.job@gmail.com
                     </a>
                 </p>
 

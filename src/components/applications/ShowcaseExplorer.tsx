@@ -23,12 +23,12 @@ const ShowcaseExplorer: React.FC<ShowcaseExplorerProps> = (props) => {
             left={56}
             width={initWidth}
             height={initHeight}
-            windowTitle="Henry Heffernan - Showcase 2022"
+            windowTitle="Hongyi Ren - Showcase 2024"
             windowBarIcon="windowExplorerIcon"
             closeWindow={props.onClose}
             onInteract={props.onInteract}
             minimizeWindow={props.onMinimize}
-            bottomLeftText={'© Copyright 2022 Henry Heffernan'}
+            bottomLeftText={'© Copyright 2024 Hongyi Ren'}
         >
             <Router>
                 <div className="site-page">
@@ -37,9 +37,9 @@ const ShowcaseExplorer: React.FC<ShowcaseExplorerProps> = (props) => {
                         <Route path="/" element={<Home />} />
                         <Route path="/about" element={<About />} />
                         <Route path="/experience" element={<Experience />} />
-                        <Route path="/projects" element={<Projects />} />
+                        {/* <Route path="/projects" element={<Projects />} /> */}
                         <Route path="/contact" element={<Contact />} />
-                        <Route
+                        {/* <Route
                             path="/projects/software"
                             element={<SoftwareProjects />}
                         />
@@ -47,7 +47,7 @@ const ShowcaseExplorer: React.FC<ShowcaseExplorerProps> = (props) => {
                             path="/projects/music"
                             element={<MusicProjects />}
                         />
-                        <Route path="/projects/art" element={<ArtProjects />} />
+                        <Route path="/projects/art" element={<ArtProjects />} /> */}
                     </Routes>
                 </div>
             </Router>

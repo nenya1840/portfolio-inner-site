@@ -24,13 +24,13 @@ const SoftwareProjects: React.FC<SoftwareProjectsProps> = (props) => {
             <ResumeDownload />
             <br />
             <div className="text-block">
-                <h2>henryheffernan.com</h2>
+                <h2>hongyi-ren.com</h2>
                 <br />
                 <p>
-                    henryheffernan.com is my portfolio website, and also the
+                    hongyi-ren.com is my portfolio website, and also the
                     website you are on right now. This project was an absolute
                     joy to make and challenged me both technically and
-                    creatively. Early in 2022, I knew I wanted to make an
+                    creatively. Early in 2024, I knew I wanted to make an
                     interactive portfolio to aid my job search. I eventually got
                     the idea for this site around early February and began
                     development early March. I've been developing it alongside
@@ -73,10 +73,10 @@ const SoftwareProjects: React.FC<SoftwareProjectsProps> = (props) => {
                         <a
                             rel="noreferrer"
                             target="_blank"
-                            href="https://henryheffernan.com"
+                            href="https://hongyi-ren.com"
                         >
                             <p>
-                                <b>[3D Site]</b> - henryheffernan.com
+                                <b>[3D Site]</b> - hongyi-ren.com
                             </p>
                         </a>
                     </li>
