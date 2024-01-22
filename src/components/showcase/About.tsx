@@ -53,7 +53,7 @@ const About: React.FC<AboutProps> = (props) => {
                     <img src={meNow} style={styles.image} alt="" />
                     <p>
                         <sub>
-                            <b>Figure 2:</b> Me and Faimily in Japan, Jan 2024
+                            <b>Figure:</b> Me and Faimily in Japan, Jan 2024
                         </sub>
                     </p>
                 </div>
