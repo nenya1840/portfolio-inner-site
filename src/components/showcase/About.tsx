@@ -40,14 +40,6 @@ const About: React.FC<AboutProps> = (props) => {
                     which has led me to have low standards for food. I don't miss home much and am suited for traveling around.
                 </p>
                 <br />
-                <div className="captioned-image">
-                    <img src={me} style={styles.image} alt="" />
-                    <p>
-                        <sub>
-                            <b>Figure 1:</b> Earlist photo I can find now.
-                        </sub>
-                    </p>
-                </div>
                 <p>
                     In 2014, I graduated from George Washington University in US.
                     I got a chance to work for Apple, CA, primarily focusing
