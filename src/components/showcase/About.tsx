@@ -1,5 +1,4 @@
 import React from 'react';
-import me from '../../assets/pictures/earliest.jpg';
 import meNow from '../../assets/pictures/meandfamily.jpg';
 import { Link } from 'react-router-dom';
 import ResumeDownload from './ResumeDownload';
