@@ -18,6 +18,7 @@ const Home: React.FC<HomeProps> = (props) => {
             <div style={styles.header}>
                 <h1 style={styles.name}>Hongyi Ren</h1>
                 <h2>Software Engineer</h2>
+                <h3 style={styles.job}>Currently looking for a job</h3>
             </div>
             <div style={styles.buttons}>
                 <Link containerStyle={styles.link} to="about" text="ABOUT" />
@@ -38,7 +39,7 @@ const Home: React.FC<HomeProps> = (props) => {
                 />
             </div>
             <div style={styles.forHireContainer} onMouseDown={goToContact}>
-                {/* <img src={forhire} alt="" /> */}
+                <img src={forhire} alt="" />
             </div>
         </div>
     );
@@ -72,6 +73,9 @@ const styles: StyleSheetCSS = {
     },
     link: {
         padding: 16,
+    },
+    job: {
+        color: 'red',
     },
     nowHiring: {
         backgroundColor: 'red',
