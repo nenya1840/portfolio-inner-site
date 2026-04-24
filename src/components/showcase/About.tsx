@@ -44,7 +44,7 @@ const About: React.FC<AboutProps> = (props) => {
                     I got a chance to work for Apple, CA, primarily focusing
                     on frontend work. I continued to work in China after 3 years in US.
                     Experience in Sensetime, DJI and Alibaba, I decide to move to Singapore.
-                    I am currently live with my wife and my sons in Singapore.
+                    I am currently living with my sons in Singapore.
                 </p>
                 <br />
                 <br />
@@ -52,7 +52,7 @@ const About: React.FC<AboutProps> = (props) => {
                     <img src={meNow} style={styles.image} alt="" />
                     <p>
                         <sub>
-                            <b>Figure:</b> Me and Faimily in Japan, Jan 2024
+                            <b>Figure:</b> Me and Faimily in Singapore, Dec 2025
                         </sub>
                     </p>
                 </div>

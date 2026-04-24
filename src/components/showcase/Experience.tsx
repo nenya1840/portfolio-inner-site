@@ -10,6 +10,31 @@ const Experience: React.FC<ExperienceProps> = (props) => {
             <div style={styles.headerContainer}>
                 <div style={styles.header}>
                     <div style={styles.headerRow}>
+                        <h1>Binance</h1>
+                        <a
+                            rel="noreferrer"
+                            target="_blank"
+                            href={'https://www.binance.com/'}
+                        >
+                            <h4>www.binance.com</h4>
+                        </a>
+                    </div>
+                    <div style={styles.headerRow}>
+                        <h3>Senior Software Engineer</h3>
+                        <b>
+                            <p>Summer 2024 - Now</p>
+                        </b>
+                    </div>
+                </div>
+            </div>
+            <div className="text-block">
+                <p>
+                    Bifrost, an AI-powered data collection and processing platform.
+                </p>
+            </div>
+            <div style={styles.headerContainer}>
+                <div style={styles.header}>
+                    <div style={styles.headerRow}>
                         <h1>Maribank</h1>
                         <a
                             rel="noreferrer"
@@ -22,7 +47,7 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                     <div style={styles.headerRow}>
                         <h3>Expert Engineer</h3>
                         <b>
-                            <p>Summer 2022 - Now</p>
+                            <p>Summer 2022 - Summer2024</p>
                         </b>
                     </div>
                 </div>
